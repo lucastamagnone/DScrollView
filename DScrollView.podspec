@@ -34,7 +34,7 @@ Pod::Spec.new do |s|
       'ios': '9.0'
    }
    
-   s.source_files = 'DScrollView/Classes/**/*.swift'
+   s.source_files = 'DScrollView/Classes/*.swift'
    
    # s.resource_bundles = {
    #   'DScrollView' => ['DScrollView/Assets/*.png']
