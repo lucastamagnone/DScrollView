@@ -12,13 +12,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0971A8CD5360EFACEE123002 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0971A8CD5360EFACEE123002 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* DScrollView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DScrollView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		85F8CD42C94255A789F83B3A /* DScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DScrollView.podspec; path = ../DScrollView.podspec; sourceTree = "<group>"; };
+		85F8CD42C94255A789F83B3A /* DScrollView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DScrollView.podspec; path = ../DScrollView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A6A398B04E0A7A37FF941BAF /* Pods_DScrollView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DScrollView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A9EFA4543B4C4DAF3BCC1774 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A9EFA4543B4C4DAF3BCC1774 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		AA74875BF1A223AB012D06A7 /* Pods-DScrollView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollView_Tests.release.xcconfig"; path = "Target Support Files/Pods-DScrollView_Tests/Pods-DScrollView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		EEADB121236C7B94F091E618 /* Pods-DScrollView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DScrollView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DScrollView_Tests/Pods-DScrollView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +95,6 @@
 				EEADB121236C7B94F091E618 /* Pods-DScrollView_Tests.debug.xcconfig */,
 				AA74875BF1A223AB012D06A7 /* Pods-DScrollView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
