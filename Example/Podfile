@@ -1,0 +1,6 @@
+use_frameworks!
+target 'DScrollView_Tests' do
+  pod 'DScrollView', :path => '../'
+  
+  
+end
